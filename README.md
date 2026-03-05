@@ -2,7 +2,9 @@
 
 A simple, clean browser-based calculator built with HTML, CSS, and JavaScript.
 
-**Live Demo:** [https://tanhoang0803.github.io/Calculator-App/](https://tanhoang0803.github.io/Calculator-App/)
+**GitHub Pages:** [https://tanhoang0803.github.io/Calculator-App/](https://tanhoang0803.github.io/Calculator-App/)
+
+**Render:** [https://calculator-app.onrender.com](https://calculator-app.onrender.com)
 
 ## Features
 
