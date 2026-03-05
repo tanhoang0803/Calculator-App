@@ -2,6 +2,8 @@
 
 A simple, clean browser-based calculator built with HTML, CSS, and JavaScript.
 
+**Live Demo:** [https://tanhoang0803.github.io/Calculator-App/](https://tanhoang0803.github.io/Calculator-App/)
+
 ## Features
 
 - Basic arithmetic: addition, subtraction, multiplication, division
