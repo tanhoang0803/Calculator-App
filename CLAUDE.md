@@ -6,12 +6,21 @@ A browser-based calculator that performs basic arithmetic operations built with 
 ## Project Structure
 ```
 Calculator_app/
-├── index.html        # Main HTML file with calculator markup
-├── style.css         # Styling and layout (grid-based button layout)
-├── script.js         # Calculator logic and DOM manipulation
-├── CLAUDE.md         # This file
-└── README.md         # Project summary
+├── .github/
+│   └── workflows/
+│       └── deploy.yml    # GitHub Actions — auto-deploy to GitHub Pages on push
+├── index.html            # Main HTML file with calculator markup
+├── style.css             # Styling and layout (grid-based button layout)
+├── script.js             # Calculator logic and DOM manipulation
+├── render.yaml           # Render static site deployment config
+├── .gitignore            # Ignored files (OS, editor, logs)
+├── CLAUDE.md             # This file
+└── README.md             # Project summary
 ```
+
+## Deployment
+- **GitHub Pages**: auto-deploys via `.github/workflows/deploy.yml` on every push to `master`
+- **Render**: static site config in `render.yaml` — connect repo at render.com to activate
 
 ## Tech Stack
 - **HTML5** — semantic structure, calculator display and buttons
